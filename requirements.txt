@@ -8,7 +8,6 @@ squarify==0.4.3
 streamlit_yellowbrick==0.0.3
 yellowbrick
 squarify
-warnings
 re
 time
 string
