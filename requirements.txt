@@ -5,10 +5,8 @@ seaborn
 streamlit
 scikit-learn
 squarify==0.4.3
-plotly
 streamlit_yellowbrick==0.0.3
 yellowbrick
-plotly.express
 squarify
 warnings
 re
