@@ -12,7 +12,6 @@ from underthesea import word_tokenize
 import warnings
 import re
 import emoji
-from emoji import UNICODE_EMOJI
 import time
 import string
 import pickle
