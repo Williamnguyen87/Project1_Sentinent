@@ -4,7 +4,6 @@ matplotlib
 seaborn
 streamlit
 scikit-learn
-pickle
 squarify==0.4.3
 plotly
 streamlit_yellowbrick==0.0.3
