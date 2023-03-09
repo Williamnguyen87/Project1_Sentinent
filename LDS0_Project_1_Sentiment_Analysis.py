@@ -45,11 +45,11 @@ def convert_textfiles(x):
     return dict_
 
 # Dictionary
-teen_dict       = convert_textfiles('files/teencode.txt') 
-EV_dict         = convert_textfiles('files/english-vnmese.txt')
-stop_words      = read_textfiles('files/stopwords.txt','utf-8')
-wrong_text_list = read_textfiles('files/wrong-word.txt','utf-8')
-emo_lst         = read_textfiles('files/emojicon.txt','utf-16')
+teen_dict       = convert_textfiles('teencode.txt') 
+EV_dict         = convert_textfiles('english-vnmese.txt')
+stop_words      = read_textfiles('stopwords.txt','utf-8')
+wrong_text_list = read_textfiles('wrong-word.txt','utf-8')
+emo_lst         = read_textfiles('emojicon.txt','utf-16')
 
 ### Sub Function:
 def label_rate(rating):
@@ -135,7 +135,7 @@ def run_all(df):
     st.code('Số dòng bị NaN: '+ str(n_null))
 
     st.subheader('Thống kê dữ liệu')
-    st.dataframe(raw_df.describe())
+    st.dataframe(df.describe())
     st.write('Dữ liệu có điểm đánh giá (rating_score) là phù hợp, với min là 1 và max là 5, trung bình là 3 điểm')
 
 ######LOAD MODEL ĐÃ BUILD 
