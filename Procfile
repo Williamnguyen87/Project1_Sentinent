@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run LDS0_Project_1_Sentiment_Analysis.py
