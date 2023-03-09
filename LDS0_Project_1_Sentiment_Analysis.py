@@ -52,7 +52,7 @@ def run_all(df):
 
 ######LOAD MODEL ĐÃ BUILD 
 
-with open('model/Shopee_review_Logistic.pkl', 'rb') as model_file:  #### model này có 90% accuracy nên khá tối ưu
+with open('Shopee_review_Logistic.pkl', 'rb') as model_file:  #### model này có 90% accuracy nên khá tối ưu
     phanloai_review = pickle.load(model_file)
     
 #------------------------------------------------
