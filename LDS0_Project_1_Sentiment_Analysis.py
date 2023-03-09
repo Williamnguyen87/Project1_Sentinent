@@ -7,11 +7,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import TruncatedSVD
+import underthesea
 from underthesea import word_tokenize
 import warnings
 import re
-#import emoji
-#from emoji import UNICODE_EMOJI
+import emoji
+from emoji import UNICODE_EMOJI
 import time
 import string
 import pickle
